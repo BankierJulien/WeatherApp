@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WeekViewController.swift
 //  WeatherProj
 //
 //  Created by Julien Bankier on 5/25/17.
@@ -8,18 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WeekViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setUpView()
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
+    
+    private func setUpView(){
+        
+    }
+    
 
 }
-
